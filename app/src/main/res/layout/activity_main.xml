@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tv1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textview"
+        android:textSize="42sp" />
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/app_name" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:ellipsize="start"
+        android:fontFamily="cursive"
+        android:text="Кнопка, которая дёргает Switch" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:button="@android:drawable/button_onoff_indicator_on"
+        android:text="Switch, который дёргает CheckBox" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Сheckbox, который дёргает ToogleButton"
+        android:textDirection="inherit"
+        android:textStyle="bold|italic"
+        android:typeface="sans" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_200"
+        android:text="@string/togglebutton"
+        android:textOff="Туда"
+        android:textOn="Сюда" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="TODO"
+        app:srcCompat="@android:drawable/ic_media_play" />
+
+</LinearLayout>
