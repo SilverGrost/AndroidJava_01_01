@@ -22,6 +22,7 @@
         android:autofillHints=""
         android:ems="5"
         android:inputType="textPersonName"
+        android:labelFor="@id/textView"
         android:text="@string/app_name" />
 
     <Button
@@ -31,20 +32,20 @@
         android:background="@android:color/holo_blue_bright"
         android:ellipsize="start"
         android:fontFamily="cursive"
-        android:text="Кнопка, которая дёргает Switch" />
+        android:text="@string/button_switsh" />
 
     <Switch
         android:id="@+id/switch1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:button="@android:drawable/button_onoff_indicator_on"
-        android:text="Switch, который дёргает CheckBox" />
+        android:text="@string/switch_checkbox" />
 
     <CheckBox
         android:id="@+id/checkBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Сheckbox, который дёргает ToogleButton"
+        android:text="@string/heckbox_tooglebutton"
         android:textDirection="inherit"
         android:textStyle="bold|italic"
         android:typeface="sans" />
@@ -55,14 +56,14 @@
         android:layout_height="wrap_content"
         android:background="@color/purple_200"
         android:text="@string/togglebutton"
-        android:textOff="Туда"
-        android:textOn="Сюда" />
+        android:textOff="@string/toggleBtn1"
+        android:textOn="@string/toggleBtn2" />
 
     <ImageButton
         android:id="@+id/imageButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:contentDescription="TODO"
+        android:contentDescription="@string/todo"
         app:srcCompat="@android:drawable/ic_media_play" />
 
 </LinearLayout>
