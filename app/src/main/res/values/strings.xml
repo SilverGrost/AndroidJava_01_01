@@ -11,4 +11,10 @@
     values-round/strings.xml for round devices.
     -->
     <string name="hello_world">Hello Square World!</string>
+    <string name="button_switsh">Кнопка, которая дёргает Switch</string>
+    <string name="switch_checkbox">Switch, который дёргает CheckBox</string>
+    <string name="heckbox_tooglebutton">Сheckbox, который дёргает ToogleButton</string>
+    <string name="toggleBtn1">Туда</string>
+    <string name="toggleBtn2">Сюда</string>
+    <string name="todo">TODO</string>
 </resources>
